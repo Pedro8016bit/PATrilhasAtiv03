@@ -1,0 +1,26 @@
+using System;
+
+namespace Atividade_02
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+			Console.WriteLine("digite um numero:");
+			double num1 = Convert.ToDouble(Console.ReadLine());
+			double conta = (num1 % 2);
+			if (conta == 0 ){
+			 Console.WriteLine(num1 + " par  ");
+			}
+			else if (conta == 1){
+			
+				Console.WriteLine(num1 + " impar  ");
+			}
+		
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
